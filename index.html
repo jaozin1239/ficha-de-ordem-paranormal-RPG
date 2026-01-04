@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Ficha RPG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Ficha de Personagem</h1>
+
+  <label>
+    Nome:
+    <input type="text" id="nome">
+  </label>
+
+  <label>
+    Força:
+    <input type="number" id="forca">
+  </label>
+
+  <button onclick="salvarFicha()">Salvar</button>
+  <button onclick="exportarJSON()">Exportar JSON</button>
+  <button onclick="exportarPDF()">Exportar PDF</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
